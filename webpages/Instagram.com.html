@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js not-logged-in client-root">
+    <head><meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+Instagram
+</title>
+
+        
+        <meta name="robots" content="noimageindex, noarchive">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000000">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+        
+
+        <link rel="manifest" href="/data/manifest.json">
+
+        
+          <link href="https://graph.instagram.com" rel="preconnect" crossorigin="">
+        
+
+        
+        <link rel="preload" href="/static/bundles/base/LandingPage.js/19329bf93f6a.js" as="script" type="text/javascript" crossorigin="anonymous">
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+        <script type="text/javascript">
+(function() {
+  if ('PerformanceObserver' in window && 'PerformancePaintTiming' in window) {
+    window.__bufferedPerformance = [];
+    var ob = new PerformanceObserver(function(e) {
+      window.__bufferedPerformance.push.apply(window.__bufferedPerformance,e.getEntries());
+    });
+    ob.observe({entryTypes:['paint']});
+  }
+  window.__bufferedErrors = [];
+  window.onerror = function(message, url, line, column, error) {
+    window.__bufferedErrors.push({
+      message: message,
+      url: url,
+      line: line,
+      column: column,
+      error: error
+    });
+    return false;
+  };
+  window.__initialData = {
+    pending: true,
+    waiting: []
+  };
+  function notifyLoaded(item, data) {
+    item.pending = false;
+    item.data = data;
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].resolve(item.data);
+    }
+    item.waiting = [];
+  }
+  function notifyError(item, msg) {
+    item.pending = false;
+    item.error = new Error(msg);
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].reject(item.error);
+    }
+    item.waiting = [];
+  }
+  window.__initialDataLoaded = function(initialData) {
+    notifyLoaded(window.__initialData, initialData);
+  };
+  window.__initialDataError = function(msg) {
+    notifyError(window.__initialData, msg);
+  };
+  window.__additionalData = {};
+  window.__pendingAdditionalData = function(paths) {
+    for (var i = 0;i < paths.length; ++i) {
+      window.__additionalData[paths[i]] = {
+        pending: true,
+        waiting: []
+      };
+    }
+  };
+  window.__additionalDataLoaded = function(path, data) {
+    notifyLoaded(window.__additionalData[path], data);
+  };
+  window.__additionalDataError = function(path, msg) {
+    notifyError(window.__additionalData[path], msg);
+  };
+})();
+</script>
+    
+                <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/932e4d9af891.png">
+                <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/004705c9353f.png">
+                <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/82467bc9bcce.png">
+                <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/515cb4eeeeee.png">
+                <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/94fd767f257b.png">
+                
+                    <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/b407fa101800.png">
+                
+            
+            
+                    <link rel="mask-icon" href="/static/images/ico/favicon.svg/9d8680ab8a3c.svg" color="#262626">
+                  
+                  <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/dfa85bb1fd63.ico">
+                
+            
+            
+            
+    
+    
+<meta property="al:ios:app_name" content="Instagram">
+<meta property="al:ios:app_store_id" content="389801252">
+<meta property="al:ios:url" content="instagram://mainfeed">
+<meta property="al:android:app_name" content="Instagram">
+<meta property="al:android:package" content="com.instagram.android">
+<meta property="al:android:url" content="https://www.instagram.com/_n/mainfeed/">
+
+<meta property="og:site_name" content="Instagram">
+<meta property="og:title" content="Instagram">
+<meta property="og:image" content="/static/images/ico/favicon-200.png/a0d593d4e9d5.png">
+<meta property="fb:app_id" content="124024574287414">
+<meta property="og:url" content="https://instagram.com/">
+<meta content="Create an account or log in to Instagram - A simple, fun &amp; creative way to capture, edit &amp; share photos, videos &amp; messages with friends &amp; family." name="description">
+
+
+    <link rel="alternate" href="https://www.instagram.com/" hreflang="x-default">
+<link rel="alternate" href="https://www.instagram.com/?hl=en" hreflang="en">
+<link rel="alternate" href="https://www.instagram.com/?hl=fr" hreflang="fr">
+<link rel="alternate" href="https://www.instagram.com/?hl=it" hreflang="it">
+<link rel="alternate" href="https://www.instagram.com/?hl=de" hreflang="de">
+<link rel="alternate" href="https://www.instagram.com/?hl=es" hreflang="es">
+<link rel="alternate" href="https://www.instagram.com/?hl=zh-cn" hreflang="zh-cn">
+<link rel="alternate" href="https://www.instagram.com/?hl=zh-tw" hreflang="zh-tw">
+<link rel="alternate" href="https://www.instagram.com/?hl=ja" hreflang="ja">
+<link rel="alternate" href="https://www.instagram.com/?hl=ko" hreflang="ko">
+<link rel="alternate" href="https://www.instagram.com/?hl=pt" hreflang="pt">
+<link rel="alternate" href="https://www.instagram.com/?hl=pt-br" hreflang="pt-br">
+<link rel="alternate" href="https://www.instagram.com/?hl=af" hreflang="af">
+<link rel="alternate" href="https://www.instagram.com/?hl=cs" hreflang="cs">
+<link rel="alternate" href="https://www.instagram.com/?hl=da" hreflang="da">
+<link rel="alternate" href="https://www.instagram.com/?hl=el" hreflang="el">
+<link rel="alternate" href="https://www.instagram.com/?hl=fi" hreflang="fi">
+<link rel="alternate" href="https://www.instagram.com/?hl=hr" hreflang="hr">
+<link rel="alternate" href="https://www.instagram.com/?hl=hu" hreflang="hu">
+<link rel="alternate" href="https://www.instagram.com/?hl=id" hreflang="id">
+<link rel="alternate" href="https://www.instagram.com/?hl=ms" hreflang="ms">
+<link rel="alternate" href="https://www.instagram.com/?hl=nb" hreflang="nb">
+<link rel="alternate" href="https://www.instagram.com/?hl=nl" hreflang="nl">
+<link rel="alternate" href="https://www.instagram.com/?hl=pl" hreflang="pl">
+<link rel="alternate" href="https://www.instagram.com/?hl=ru" hreflang="ru">
+<link rel="alternate" href="https://www.instagram.com/?hl=sk" hreflang="sk">
+<link rel="alternate" href="https://www.instagram.com/?hl=sv" hreflang="sv">
+<link rel="alternate" href="https://www.instagram.com/?hl=th" hreflang="th">
+<link rel="alternate" href="https://www.instagram.com/?hl=tl" hreflang="tl">
+<link rel="alternate" href="https://www.instagram.com/?hl=tr" hreflang="tr">
+<link rel="alternate" href="https://www.instagram.com/?hl=hi" hreflang="hi">
+<link rel="alternate" href="https://www.instagram.com/?hl=bn" hreflang="bn">
+<link rel="alternate" href="https://www.instagram.com/?hl=gu" hreflang="gu">
+<link rel="alternate" href="https://www.instagram.com/?hl=kn" hreflang="kn">
+<link rel="alternate" href="https://www.instagram.com/?hl=ml" hreflang="ml">
+<link rel="alternate" href="https://www.instagram.com/?hl=mr" hreflang="mr">
+<link rel="alternate" href="https://www.instagram.com/?hl=pa" hreflang="pa">
+<link rel="alternate" href="https://www.instagram.com/?hl=ta" hreflang="ta">
+<link rel="alternate" href="https://www.instagram.com/?hl=te" hreflang="te">
+<link rel="alternate" href="https://www.instagram.com/?hl=ne" hreflang="ne">
+<link rel="alternate" href="https://www.instagram.com/?hl=si" hreflang="si">
+<link rel="alternate" href="https://www.instagram.com/?hl=ur" hreflang="ur">
+<link rel="alternate" href="https://www.instagram.com/?hl=vi" hreflang="vi">
+<link rel="alternate" href="https://www.instagram.com/?hl=bg" hreflang="bg">
+<link rel="alternate" href="https://www.instagram.com/?hl=fr-ca" hreflang="fr-ca">
+<link rel="alternate" href="https://www.instagram.com/?hl=ro" hreflang="ro">
+<link rel="alternate" href="https://www.instagram.com/?hl=sr" hreflang="sr">
+<link rel="alternate" href="https://www.instagram.com/?hl=uk" hreflang="uk">
+<link rel="alternate" href="https://www.instagram.com/?hl=zh-hk" hreflang="zh-hk">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-pa">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-do">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-sv">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-ec">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-pe">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-cl">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-gt">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-ni">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-cr">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-bo">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-uy">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-ar">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-cu">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-ve">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-co">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-pr">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-hn">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-mx">
+<link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-py">
+    
+</head>
+    <body class="">
+        
+    <span id="react-root"></span>
+
+        
+
+        
+            <script type="text/javascript">window._sharedData = {"activity_counts":null,"config":{"csrf_token":"ECUrvGr4DQV3caVoSAlj3iTy53bTfWAL","viewer":null},"supports_es6":false,"country_code":"IN","language_code":"en","locale":"en_US","entry_data":{"LandingPage":[{"captcha":{"enabled":false,"key":""},"hsite_redirect_url":"","prefill_phone_number":"","gdpr_required":false,"tos_version":"row"}]},"gatekeepers":{"ld":true,"seo":true,"seoht":true,"sf":true,"lh":true,"saa":true},"knobs":{"acct:ntb":0,"cb":0,"captcha":0},"qe":{"dash_for_vod":{"g":"","p":{}},"aysf":{"g":"","p":{}},"bc3l":{"g":"","p":{}},"comment_reporting":{"g":"","p":{}},"direct_conversation_reporting":{"g":"","p":{}},"direct_reporting":{"g":"","p":{}},"reporting":{"g":"","p":{}},"media_reporting":{"g":"","p":{}},"acc_recovery_link":{"g":"","p":{}},"notif":{"g":"","p":{}},"drct_nav":{"g":"","p":{}},"pl_pivot_li":{"g":"","p":{}},"pl_pivot_lo":{"g":"","p":{}},"404_as_react":{"g":"","p":{}},"acc_recovery":{"g":"","p":{}},"client_gql":{"g":"","p":{}},"collections":{"g":"","p":{}},"comment_ta":{"g":"","p":{}},"connections":{"g":"","p":{}},"disc_ppl":{"g":"","p":{}},"embeds":{"g":"","p":{}},"ebdsim_li":{"g":"","p":{}},"ebdsim_lo":{"g":"","p":{}},"es6":{"g":"","p":{}},"exit_story_creation":{"g":"","p":{}},"gdpr_logged_out":{"g":"","p":{}},"appsell":{"g":"","p":{}},"imgopt":{"g":"","p":{}},"follow_button":{"g":"","p":{}},"loggedout":{"g":"control","p":{"new_cta":"true","remove_upsell_banner":"true","show_fb_banner":"false","update_nav":"true"}},"loggedout_upsell":{"g":"test_with_new_loggedout_upsell_content_03_15_18","p":{"has_new_loggedout_upsell_content":"true"}},"us_li":{"g":"","p":{}},"msisdn":{"g":"","p":{}},"bg_sync":{"g":"","p":{}},"onetaplogin":{"g":"","p":{}},"onetaplogin_userbased":{"g":"","p":{}},"login_poe":{"g":"","p":{}},"prvcy_tggl":{"g":"","p":{}},"private_lo":{"g":"","p":{}},"profile_photo_nux_fbc_v2":{"g":"","p":{}},"profile_tabs":{"g":"","p":{}},"push_notifications":{"g":"","p":{}},"reg":{"g":"new_reg_with_appsells_01_10","p":{"has_new_landing_appsells":"true","has_new_landing_page":"true"}},"reg_vp":{"g":"","p":{}},"feed_vp":{"g":"","p":{}},"report_haf":{"g":"","p":{}},"report_media":{"g":"","p":{}},"report_profile":{"g":"","p":{}},"save":{"g":"","p":{}},"sidecar":{"g":"","p":{}},"su_universe":{"g":"","p":{}},"stale":{"g":"","p":{}},"stories_lo":{"g":"","p":{}},"stories":{"g":"","p":{}},"tp_pblshr":{"g":"","p":{}},"video":{"g":"","p":{}},"gdpr_settings":{"g":"","p":{}},"gdpr_blocking_logout":{"g":"","p":{}},"gdpr_eu_tos":{"g":"","p":{}},"gdpr_row_tos":{"g":"control_05_01","p":{"tos_version":"row"}},"fd_gr":{"g":"","p":{}},"felix":{"g":"","p":{}}},"hostname":"www.instagram.com","platform":"web","rhx_gis":"adf9ce39c932f9f1938f2505a820d1a7","nonce":"jBki/SsDJkjyhL6nqwEh3w==","zero_data":{},"rollout_hash":"555a07dee140","bundle_variant":"base","probably_has_app":false,"show_app_install":true};</script>
+    <script type="text/javascript">
+    window.__initialDataLoaded(window._sharedData);
+    </script>
+            <script type="text/javascript" src="/static/bundles/base/Polyfills.js/d5d44088527a.js" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="/static/bundles/base/Vendor.js/03616409e70a.js" crossorigin="anonymous"></script>
+<script type="text/javascript">!function(e){var a=window.webpackJsonp;window.webpackJsonp=function(n,r,c){for(var i,d,s,g=0,f=[];g<n.length;g++)d=n[g],o[d]&&f.push(o[d][0]),o[d]=0;for(i in r)Object.prototype.hasOwnProperty.call(r,i)&&(e[i]=r[i]);for(a&&a(n,r,c);f.length;)f.shift()();if(c)for(g=0;g<c.length;g++)s=t(t.s=c[g]);return s};var n={},o={67:0};function t(a){if(n[a])return n[a].exports;var o=n[a]={i:a,l:!1,exports:{}};return e[a].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.e=function(e){var a=o[e];if(0===a)return new Promise(function(e){e()});if(a)return a[2];var n=new Promise(function(n,t){a=o[e]=[n,t]});a[2]=n;var r=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.charset="utf-8",c.async=!0,c.timeout=12e4,c.crossOrigin="anonymous",t.nc&&c.setAttribute("nonce",t.nc),c.src=t.p+""+({0:"DebugInfoNub",1:"SettingsModules",2:"MobileStoriesPage",3:"DesktopStoriesPage",4:"ProfilePageContainer",5:"LikedByListContainer",6:"FollowListContainer",7:"CreationModules",8:"LocationPageContainer",9:"DiscoverMediaPageContainer",10:"DiscoverEmbedsPageContainer",11:"TagPageContainer",12:"UserCollectionMediaPageContainer",13:"FeedPageContainer",14:"PostPageContainer",15:"LandingPage",16:"LoginAndSignupPage",17:"ResetPasswordPageContainer",18:"MobileStoriesLoginPage",19:"DesktopStoriesLoginPage",20:"FBSignupPage",21:"MultiStepSignupPage",22:"DirectInboxPageContainer",23:"NewUserInterstitial",24:"DiscoverPeoplePageContainer",25:"TermsUnblockPage",26:"IGTVVideoUploadPageContainer",27:"DataDownloadRequestPage",28:"UserCollectionsPageContainer",29:"AccessToolViewAllPage",30:"AccessToolPage",31:"DataDownloadRequestConfirmPage",32:"ContactHistoryPage",33:"DataControlsSupportPage",34:"EmailConfirmationPage",35:"LocationsDirectoryLandingPage",36:"LocationsDirectoryCountryPage",37:"LocationsDirectoryCityPage",38:"OneTapUpsell",39:"NewTermsConfirmPage",40:"CheckpointUnderageAppealPage",41:"SuggestedDirectoryLandingPage",42:"ProfilesDirectoryLandingPage",43:"HashtagsDirectoryLandingPage",44:"OAuthPermissionsPage",45:"DirectoryPage",46:"HttpErrorPage",47:"ActivityFeedPage",48:"StoryCreationPage",49:"ParentalConsentPage",50:"ParentalConsentNotParentPage",51:"AccountPrivacyBugPage",52:"ContactInvitesOptOutPage",53:"ContactInvitesOptOutStatusPage",54:"Docpen",55:"Report",56:"Copyright",57:"SupportInfo",58:"Community",59:"Verification",60:"Challenge",61:"Consumer",62:"EmailSnoozePage",63:"EmailUnsubscribePage",64:"NotificationLandingPage"}[e]||e)+".js/"+{0:"1ed8afec9e06",1:"a1285df29030",2:"b3b761741174",3:"be1c29420f3f",4:"ca0aecd43a74",5:"d650d4f69b0d",6:"25c7673c9ae6",7:"6ac0dd60e8e1",8:"abbbee31eeae",9:"9dc366f1c7c3",10:"1fe0b983671b",11:"704701fc2937",12:"cb8036d3f6e4",13:"d8c18d2430c1",14:"86324e02f2fb",15:"19329bf93f6a",16:"e65d50041f5d",17:"a1055e903c8c",18:"d3b9d7b50c46",19:"442c9813c735",20:"73131f3c0182",21:"d2f1bb6e7193",22:"4531a3ecd019",23:"05a01c30847b",24:"745b1bcc91ed",25:"23e218442a40",26:"6214d88f844d",27:"7ac3de585393",28:"2ff5ac56e75f",29:"22c75e28a8b1",30:"6e2b714a6be4",31:"8b8ca8ffcd71",32:"028a68b60ebb",33:"9f4f023428e6",34:"d761f32cb90e",35:"0bcd65acce6c",36:"7e4876708677",37:"a174ca9f68dd",38:"25969be999c5",39:"76d478ee2f2d",40:"a3e5c9a760c5",41:"be462f46f2e6",42:"b72b28fb01ac",43:"b2811d1b3fd1",44:"db7eeb015599",45:"f5206abe8766",46:"6a7116115dd2",47:"d2ef887d21ec",48:"8c2e94ef15ac",49:"addb98584f09",50:"a17380b4d528",51:"2bc194de81e3",52:"e854f0260d71",53:"c151cdb3ab6c",54:"e1b42900af1f",55:"b1c1b0631c3e",56:"2b6caf28a5db",57:"244bf7f16043",58:"51995dee41d7",59:"c7b3c4462b3f",60:"b6398e5523cc",61:"95b2f8f9c684",62:"c9513b1ab29d",63:"87a68a403161",64:"547692b61861"}[e]+".js";var i=setTimeout(d,12e4);function d(){c.onerror=c.onload=null,clearTimeout(i);var a=o[e];0!==a&&(a&&a[1](new Error("Loading chunk "+e+" failed.")),o[e]=void 0)}return c.onerror=c.onload=d,r.appendChild(c),n},t.m=e,t.c=n,t.d=function(e,a,n){t.o(e,a)||Object.defineProperty(e,a,{configurable:!1,enumerable:!0,get:n})},t.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(a,"a",a),a},t.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},t.p="/static/bundles/base/",t.oe=function(e){throw console.error(e),e}}([]);</script>
+            <script type="text/javascript" src="/static/bundles/base/LandingPage.js/19329bf93f6a.js" crossorigin="anonymous" charset="utf-8" async></script>
+<script type="text/javascript" src="/static/bundles/base/en_US.js/54cefa9a1bb6.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/static/bundles/base/ConsumerCommons.js/5354a2b07380.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/static/bundles/base/Consumer.js/95b2f8f9c684.js" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
