@@ -2,8 +2,9 @@
   * Assumption 
   * 1) Site is accessible under HTTP or HTTPS protocol.
   * 2) As we Are saving in HTML format therefore Sometime Crude version could be displayed.
-  * 3) Only Those the are changed where text node has no sibling .
-  * 4) Only those are node are changed which do not have any children.
+  * 3) <tag> string </tag> here string is treated as text node . 
+  * 4) Only Those the are changed where text node has no sibling .
+  * 5) Only those are node are changed which do not have any children.
   */
 const https = require('https');
 const http = require('http');
