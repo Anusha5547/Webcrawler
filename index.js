@@ -1,3 +1,9 @@
+/**
+  * Assumption 
+  * 1) Site is accessible under HTTP or HTTPS protocol.
+  * 2) As we Are saving in HTML format therefore Sometime Crude version could be displayed.
+  * 3) Only Those the are changed where text node has no sibling.
+  */
 const https = require('https');
 const http = require('http');
 const cheerio = require('cheerio');
@@ -63,7 +69,7 @@ function fetchContentOfUrl(url, websiteName) {
                 var body = "";
                 res.setEncoding('utf8');
 
-                res.on('error', function(err){
+                res.on('error', function(err) {
                     console.log("Error!")
                 });
 
@@ -73,7 +79,7 @@ function fetchContentOfUrl(url, websiteName) {
                 res.on('end', function () {
                     resolve(body);
                 })
-            }).on('error', function(err){
+            }).on('error', function(err) {
                 //console.log("In! " + url);
                 httpFetch('http://www.' + websiteName).then((body) => {
                     resolve(body);
@@ -84,8 +90,8 @@ function fetchContentOfUrl(url, websiteName) {
     });
 }
 
-function httpFetch(url){
-    return new Promise(function(resolve, reject){
+function httpFetch(url) {
+    return new Promise(function(resolve, reject) {
         http.get(url, function (res) {
             var body = "";
             res.setEncoding('utf8');
@@ -100,7 +106,7 @@ function httpFetch(url){
             res.on('end', function () {
                 resolve(body);
             })
-        }).on('error', function(err){
+        }).on('error', function(err) {
             console.log("In! " + url);
             reject();
         });
