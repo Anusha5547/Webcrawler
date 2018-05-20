@@ -7,4 +7,4 @@ This is used to crawl top 50 website as per Alexa ranking and replace the word "
 of the websites.
 
 
-![alt text](/Webcrawler/Screenshot from 2018-05-20 19-58-38.png)
+![alt text](https://github.com/shaharyar-shamshi/Webcrawler/blob/master/Screenshot%20from%202018-05-20%2019-58-38.png)
